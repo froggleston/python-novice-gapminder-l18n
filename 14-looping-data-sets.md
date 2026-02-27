@@ -111,7 +111,7 @@ data/gapminder_gdp_oceania.csv 10039.59564
 
 ## Determining Matches
 
-Which of these files is *not* matched by the expression `glob.glob('data/*as*.csv')`?
+Which of these files is _not_ matched by the expression `glob.glob('data/*as*.csv')`?
 
 1. `data/gapminder_gdp_africa.csv`
 2. `data/gapminder_gdp_americas.csv`
@@ -122,8 +122,6 @@ Which of these files is *not* matched by the expression `glob.glob('data/*as*.cs
 ## Solution
 
 1 is not matched by the glob.
-
-
 
 :::::::::::::::::::::::::
 
@@ -168,8 +166,6 @@ you're dealing with, but that could lead to trouble if you reuse the code with b
 Python lets you use positive infinity, which will work no matter how big your numbers are.
 What other special strings does the [`float` function][float-function] recognize?
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -184,13 +180,12 @@ in a single chart. Pandas will raise an error if it encounters
 non-numeric columns in a dataframe computation so you may need
 to either filter out those columns or tell pandas to ignore them.
 
-
 :::::::::::::::  solution
 
 ## Solution
 
 This solution builds a useful legend by using the [string `split` method][split-method] to
-extract the `region` from the path 'data/gapminder\_gdp\_a\_specific\_region.csv'.
+extract the `region` from the path 'data/gapminder\\_gdp\\_a\\_specific\\_region.csv'.
 
 ```python
 import glob
@@ -256,14 +251,12 @@ gapminder_gdp_africa
 **Hint:** Check all available attributes and methods on the `Path` object with the `dir()`
 function.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 [shape-method]: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shape.html
 [float-function]: https://docs.python.org/3/library/functions.html#float
 [split-method]: https://docs.python.org/3/library/stdtypes.html#str.split
 [pathlib-module]: https://docs.python.org/3/library/pathlib.html
-
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 

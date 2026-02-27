@@ -22,7 +22,7 @@ exercises: 0
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-To run Python, we are going to use [Jupyter Notebooks][jupyter] via [JupyterLab][jupyterlab] for the remainder of this workshop. Jupyter notebooks are common in data science and visualization and serve as a convenient common-denominator experience for running Python code interactively where we can easily view and share the results of our Python code.
+To run Python, we are going to use \[Jupyter Notebooks]\[jupyter] via [JupyterLab][jupyterlab] for the remainder of this workshop. Jupyter notebooks are common in data science and visualization and serve as a convenient common-denominator experience for running Python code interactively where we can easily view and share the results of our Python code.
 
 There are other ways of editing, managing, and running code. Software developers often use an integrated development environment (IDE) like [PyCharm](https://www.jetbrains.com/pycharm/) or [Visual Studio Code](https://code.visualstudio.com/), or text editors like Vim or Emacs, to create and edit their Python programs. After editing and saving your Python programs you can execute those programs within the IDE itself or directly on the command line. In contrast, Jupyter notebooks let us execute and view the results of our Python code immediately within the notebook.
 
@@ -44,7 +44,7 @@ JupyterLab is an application server with a web user interface from [Project Jupy
 enables one to work with documents and activities such as Jupyter notebooks, text editors, terminals,
 and even custom components in a flexible, integrated, and extensible manner. JupyterLab requires a
 reasonably up-to-date browser (ideally a current version of Chrome, Safari, or Firefox); Internet
-Explorer versions 9 and below are *not* supported.
+Explorer versions 9 and below are _not_ supported.
 
 JupyterLab is included as part of the Anaconda Python distribution. If you have not already
 installed the Anaconda Python distribution, see [the setup instructions](../learners/setup.md)
@@ -69,7 +69,6 @@ Experienced users of Jupyter notebooks interested in a more detailed discussion 
 between the JupyterLab and Jupyter notebook user interfaces can find more information in the
 [JupyterLab user interface documentation][jupyterlab-ui].
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Starting JupyterLab
@@ -84,7 +83,7 @@ There are two ways to open Terminal on Mac.
 
 1. In your Applications folder, open Utilities and double-click on Terminal
 2. Press <kbd>Command</kbd> + <kbd>spacebar</kbd> to launch Spotlight. Type `Terminal` and then
-  double-click the search result or hit <kbd>Enter</kbd>
+   double-click the search result or hit <kbd>Enter</kbd>
 
 After you have launched Terminal, type the command to launch the JupyterLab server.
 
@@ -140,13 +139,13 @@ The Menu Bar at the top of JupyterLab has the top-level menus that expose variou
 available in JupyterLab along with their keyboard shortcuts (where applicable). The following
 menus are included by default.
 
-- **File:** Actions related to files and directories such as *New*, *Open*, *Close*, *Save*, etc. The *File* menu also includes the *Shut Down* action used to shutdown the JupyterLab server.
-- **Edit:** Actions related to editing documents and other activities such as *Undo*, *Cut*, *Copy*, *Paste*, etc.
+- **File:** Actions related to files and directories such as _New_, _Open_, _Close_, _Save_, etc. The _File_ menu also includes the _Shut Down_ action used to shutdown the JupyterLab server.
+- **Edit:** Actions related to editing documents and other activities such as _Undo_, _Cut_, _Copy_, _Paste_, etc.
 - **View:** Actions that alter the appearance of JupyterLab.
 - **Run:** Actions for running code in different activities such as notebooks and code consoles (discussed below).
 - **Kernel:** Actions for managing kernels. Kernels in Jupyter will be explained in more detail below.
 - **Tabs:** A list of the open documents and activities in the main work area.
-- **Settings:** Common JupyterLab settings can be configured using this menu. There is also an *Advanced Settings Editor* option in the dropdown menu that provides more fine-grained control of JupyterLab settings and configuration options.
+- **Settings:** Common JupyterLab settings can be configured using this menu. There is also an _Advanced Settings Editor_ option in the dropdown menu that provides more fine-grained control of JupyterLab settings and configuration options.
 - **Help:** A list of JupyterLab and kernel help links.
 
 :::::::::::::::::::::::::::::::::::::::::  callout
@@ -199,16 +198,16 @@ activity. The tab for the current activity is marked with a colored top border (
 
 ## Creating a Python script
 
-- To start writing a new Python program click the Text File icon under the *Other* header in the Launcher tab of the Main Work Area.
-  - You can also create a new plain text file by selecting the *New -> Text File* from the *File* menu in the Menu Bar.
-- To convert this plain text file to a Python program, select the *Save File As* action from the *File* menu in the Menu Bar and give your new text file a name that ends with the `.py` extension.
+- To start writing a new Python program click the Text File icon under the _Other_ header in the Launcher tab of the Main Work Area.
+  - You can also create a new plain text file by selecting the _New -> Text File_ from the _File_ menu in the Menu Bar.
+- To convert this plain text file to a Python program, select the _Save File As_ action from the _File_ menu in the Menu Bar and give your new text file a name that ends with the `.py` extension.
   - The `.py` extension lets everyone (including the operating system) know that this text file is a Python program.
   - This is convention, not a requirement.
 
 ## Creating a Jupyter Notebook
 
-To open a new notebook click the Python 3 icon under the *Notebook* header in the Launcher tab in
-the main work area. You can also create a new notebook by selecting *New -> Notebook* from the *File* menu in the Menu Bar.
+To open a new notebook click the Python 3 icon under the _Notebook_ header in the Launcher tab in
+the main work area. You can also create a new notebook by selecting _New -> Notebook_ from the _File_ menu in the Menu Bar.
 
 Additional notes on Jupyter notebooks.
 
@@ -228,7 +227,6 @@ more details, then see the [official notebook documentation][jupyterlab-notebook
 - The notebook file is stored in a format called JSON.
 - Just like a webpage, what's saved looks different from what you see in your browser.
 - But this format allows Jupyter to mix source code, text, and images, all in one file.
-  
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -256,8 +254,6 @@ After creating the necessary tabs, you can drag one of the tabs to the center of
 move the tab to the panel; next you can subdivide a tab panel by dragging a tab to the left,
 right, top, or bottom of the panel.
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -270,7 +266,6 @@ Jupyter mixes code and text in different types of blocks, called cells. We often
 "code" to mean "the source code of software written in a language such as Python".
 A "code cell" in a Notebook is a cell that contains software;
 a "text cell" is one that contains ordinary prose written for human beings.
-
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -306,8 +301,6 @@ You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Typ
 You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>x</kbd>.
 You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>z</kbd>.
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -342,61 +335,36 @@ You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Typ
 Table: Showing some markdown syntax and its rendered output.
 
 +---------------------------------------+------------------------------------------------+
-| Markdown code                         | Rendered output                                |
+\| Markdown code                         | Rendered output                                |
 +=======================================+================================================+
 +---------------------------------------+------------------------------------------------+
-| ```                                   | <p></p>                                        |
-| *   Use asterisks                     | -   Use asterisks                              |
-| *   to create                         | -   to create                                  |
-| *   bullet lists.                     | -   bullet lists.                              |
-| ```                                   |                                                |
+\| `                                  | <p></p>                                        | | *   Use asterisks                     | -   Use asterisks                              | | *   to create                         | -   to create                                  | | *   bullet lists.                     | -   bullet lists.                              |
+|`                                   |                                                |
 +---------------------------------------+------------------------------------------------+
 +---------------------------------------+------------------------------------------------+
-| ```                                   | <p></p>                                        |
-| 1.   Use numbers                      | 1.   Use numbers                               |
-| 1.   to create                        | 2.   to create                                 |
-| 1.   bullet lists.                    | 3.   numbered lists.                           |
-| ```                                   |                                                |
+\| `                                  | <p></p>                                        | | 1.   Use numbers                      | 1.   Use numbers                               | | 1.   to create                        | 2.   to create                                 | | 1.   bullet lists.                    | 3.   numbered lists.                           |
+|`                                   |                                                |
 +---------------------------------------+------------------------------------------------+
 +---------------------------------------+------------------------------------------------+
-| ```                                   | <p></p>                                        |
-| *  You can use indents                | - You can use indents                          |
-|   *  To create sublists               |   - To create sublists                         |
-|   *  of the same type                 |   - of the same type                           |
-| *  Or sublists                        | - Or sublists                                  |
-|   1. Of different                     |   1. Of different                              |
-|   1. types                            |   2. types                                     |
-| ```                                   |                                                |
+\| `                                  | <p></p>                                        | | *  You can use indents                | - You can use indents                          | |   *  To create sublists               |   - To create sublists                         | |   *  of the same type                 |   - of the same type                           | | *  Or sublists                        | - Or sublists                                  | |   1. Of different                     |   1. Of different                              | |   1. types                            |   2. types                                     |
+|`                                   |                                                |
 +---------------------------------------+------------------------------------------------+
 +---------------------------------------+------------------------------------------------+
-| ```                                   | <p></p>                                        |
-| # A Level-1 Heading                   | ## A Level-1 Heading                           |
-| ```                                   |                                                |
+\| `                                  | <p></p>                                        | | # A Level-1 Heading                   | ## A Level-1 Heading                           |
+|`                                   |                                                |
 +---------------------------------------+------------------------------------------------+
 +---------------------------------------+------------------------------------------------+
-| ```                                   | <p></p>                                        |
-| ## A Level-2 Heading (etc.)           | ### A Level-2 Heading (etc.)                   |
-| ```                                   |                                                |
+\| `                                  | <p></p>                                        | | ## A Level-2 Heading (etc.)           | ### A Level-2 Heading (etc.)                   |
+|`                                   |                                                |
 +---------------------------------------+------------------------------------------------+
 +---------------------------------------+------------------------------------------------+
-| ```                                   | <p></p>                                        |
-| Line breaks                           | Line breaks                                    |
-| don't matter.                         | don't matter.                                  |
-|                                       |                                                |
-| But blank lines                       | But blank lines                                |
-| create new paragraphs.                | create new paragraphs.                         |
-| ```                                   |                                                |
+\| `                                  | <p></p>                                        | | Line breaks                           | Line breaks                                    | | don't matter.                         | don't matter.                                  | |                                       |                                                | | But blank lines                       | But blank lines                                | | create new paragraphs.                | create new paragraphs.                         |
+|`                                   |                                                |
 +---------------------------------------+------------------------------------------------+
 +---------------------------------------+------------------------------------------------+
-| ```                                   | <p></p>                                        |
-| [Links](http://software-carpentry.org)| [Links](https://software-carpentry.org)        |
-| are created with `[...](...)`.        | are created with `[...](...)`.                 |
-| Or use [named links][data-carp].      | Or use [named links][data_carpentry].          |
-|                                       |                                                |
-| [data-carp]: http://datacarpentry.org |                                                |
-| ```                                   |                                                |
+\| ``                                  | <p></p>                                        | | [Links](http://software-carpentry.org)| [Links](https://software-carpentry.org)        | | are created with `[...](...)`.        | are created with `[...](...)`.                 | | Or use [named links][data-carp].      | Or use [named links][data_carpentry].          | |                                       |                                                | | [data-carp]: http://datacarpentry.org |                                                |
+|``                                   |                                                |
 +---------------------------------------+------------------------------------------------+
-
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
@@ -406,9 +374,11 @@ Create a nested list in a Markdown cell in a notebook that looks like this:
 
 1. Get funding.
 2. Do work.
-  - Design experiment.
-  - Collect data.
-  - Analyze.
+
+- Design experiment.
+- Collect data.
+- Analyze.
+
 3. Write up.
 4. Publish.
 
@@ -523,8 +493,6 @@ A pair of curly braces, `{` and `}`, is used to group text together so that the 
 Similarly, `-i` is in curly braces to make the whole statement the superscript for `2`.
 `\sum` and `\approx` are LaTeX commands for "sum over" and "approximate" symbols.
 
-
-
 :::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -544,17 +512,13 @@ $ jupyter lab
 
 Practice closing and restarting the JupyterLab server.
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
 
 [jupyterlab]: https://jupyterlab.readthedocs.io/en/stable/
 [jupyterlab-ui]: https://jupyterlab.readthedocs.io/en/stable/user/interface.html
 [jupyterlab-notebook-docs]: https://jupyterlab.readthedocs.io/en/stable/user/notebook.html
 [markdown]: https://en.wikipedia.org/wiki/Markdown
 [data_carpentry]: https://datacarpentry.org
-
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 

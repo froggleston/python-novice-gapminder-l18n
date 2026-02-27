@@ -14,14 +14,14 @@ as well (e.g., repl.it, Anaconda).
 ## Prerequisites
 
 1. Learners need to understand what files and directories are,
-  what a working directory is,
-  and how to start a Python interpreter.
+   what a working directory is,
+   and how to start a Python interpreter.
 
 2. Learners must install Python 3 before the class starts.
 
 3. Learners must get the gapminder data before class starts:
-  please download and unzip the file
-  [python-novice-gapminder-data.zip](episodes/files/python-novice-gapminder-data.zip).
+   please download and unzip the file
+   [python-novice-gapminder-data.zip](episodes/files/python-novice-gapminder-data.zip).
 
 Please see [the setup instructions](learners/setup.md)
 for more details.
